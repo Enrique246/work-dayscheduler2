@@ -84,6 +84,16 @@ function colors() {
 // Run function colors to paint the inputs according to the time 
 colors();
 
+// Save button function
+
+//events
+// Type: String
+// One or more space-separated event types and optional namespaces, such as "click" or "keydown.myPlugin".
+// selector
+// Type: String
+// A selector string to filter the descendants of the selected elements that trigger the event. If the selector is null or omitted, the event is always triggered when it reaches the selected element.
+//https://api.jquery.com/on/
+
 $('.saveBtn').on("click", function (event){
 event.preventDefault();
 
